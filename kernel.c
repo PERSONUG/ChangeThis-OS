@@ -4,7 +4,7 @@ void kernel_main(void) {
     volatile char* video_memory = (volatile char*) 0xB8000;
 
     // The message we want to display on our custom OS
-    const char* message = "Hello from your custom OS kernel!";
+    const char* message = "ChangeThis OS - Make it your own!";
     
     // Each character on screen takes up 2 bytes of memory:
     // Byte 1: The ASCII character code (e.g., 'H')
