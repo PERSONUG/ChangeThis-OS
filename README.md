@@ -1,7 +1,6 @@
 # ChangeThis OS
 ChangeThis OS is an open-souce kernel OS developed by PERSONUG. It contains all the files you need to create a boitable operating system kernel.
 
-# ChangeThis OS
 ChangeThis OS is an open-souce kernel OS developed by PERSONUG. It contains all the files you need to create a bootable operating system kernel.
 
 
@@ -46,4 +45,3 @@ Currently, the OS boots into a 80x25 VGA environment with a styled desktop and a
 
 ---
 
-### How to Save this to GitHub:
