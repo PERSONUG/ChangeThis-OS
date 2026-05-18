@@ -34,5 +34,3 @@ qemu-system-i386 -cdrom ChangeThisOS.iso -display curses
 ```
 
 *Developed by @PERSONUG*
-
-```
