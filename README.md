@@ -18,7 +18,7 @@ ChangeThis OS is an open-souce kernel OS developed by PERSONUG. It contains all 
 * **Emulator:** QEMU
 
 ## How to Build & Run
-If you are using ## GitHub Codespaces
+If you are using GitHub Codespaces
 You can run the following command in the terminal to compile the kernel and launch the OS:
 
 ```bash
@@ -31,8 +31,8 @@ cp isodir/boot/grub.cfg isodir/boot/grub/grub.cfg && \
 grub-mkrescue -o ChangeThisOS.iso isodir && \
 qemu-system-i386 -cdrom ChangeThisOS.iso -display curses
 
+```
 ## Otherwise
 You can get an ISO file and run it in a VM, emulator or boot it on a computer
-```
 
 *Developed by @PERSONUG*
