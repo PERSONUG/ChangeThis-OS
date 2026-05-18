@@ -33,15 +33,6 @@ qemu-system-i386 -cdrom ChangeThisOS.iso -display curses
 
 ```
 
-## Preview
-
-Currently, the OS boots into a 80x25 VGA environment with a styled desktop and a "Start" menu area.
-
----
-
 *Developed by @PERSONUG*
 
 ```
-
----
-
