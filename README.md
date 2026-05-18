@@ -1,10 +1,9 @@
 # ChangeThis OS
 ChangeThis OS is an open-souce kernel OS developed by PERSONUG. It contains all the files you need to create a boitable operating system kernel.
 
-ChangeThis OS is an open-souce kernel OS developed by PERSONUG. It contains all the files you need to create a bootable operating system kernel.
 
 
-A custom x86 Operating System built from scratch. This project demonstrates low-level kernel development, including a custom bootloader configuration, memory mapping, and a Windows-style Graphical User Interface (GUI) built in VGA text mode.
+
 
 ## Features
 * **Custom Kernel:** Written in C and Assembly.
@@ -19,7 +18,8 @@ A custom x86 Operating System built from scratch. This project demonstrates low-
 * **Emulator:** QEMU
 
 ## How to Build & Run
-If you are using GitHub Codespaces, you can run the following command in the terminal to compile the kernel and launch the OS:
+If you are using ## GitHub Codespaces
+You can run the following command in the terminal to compile the kernel and launch the OS:
 
 ```bash
 nasm -f elf32 boot.asm -o boot.o && \
@@ -31,6 +31,8 @@ cp isodir/boot/grub.cfg isodir/boot/grub/grub.cfg && \
 grub-mkrescue -o ChangeThisOS.iso isodir && \
 qemu-system-i386 -cdrom ChangeThisOS.iso -display curses
 
+## Otherwise
+You can get an ISO file and run it in a VM, emulator or boot it on a computer
 ```
 
 *Developed by @PERSONUG*
