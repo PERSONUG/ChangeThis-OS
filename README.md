@@ -33,6 +33,10 @@ qemu-system-i386 -cdrom ChangeThisOS.iso -display curses
 
 ```
 ## Otherwise
-You can get an ISO file and run it in a VM, emulator or boot it on a computer
+You can get an ISO file and run it in a VM, emulator or boot it on a computer.
 
-*Developed by @PERSONUG*
+
+## USES
+You can modify the code however you like and can change it to create a modern operating system, similar to Windows or MacOS, or you can create a custom OS. This is yours to modify.
+
+## *Developed by @PERSONUG*
